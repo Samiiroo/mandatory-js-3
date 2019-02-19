@@ -1,109 +1,62 @@
-html{
 
-   width: 100%;
-   height: 100px;
-      cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC"), auto;
-
-    }
-header {
+    html {
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC"), auto;
     width: 100%;
-    background-image: url("https://dogsonthego.net/wp-content/uploads/2014/11/dogs-on-the-go-contact-header.jpg");
-    margin: 0;
-    height: 200px;
-}
-header h1 {
-    margin: 0;
-    font-size: 1.6rem;
-    padding-left: 0px;
-    padding-top: 20px;
-    color: black;
-}
+    }
 
-header P {
-    margin: 0;
-    font-size: 40px;
-    padding-left: 0px;
-    padding-top: 10px;
-    color: black;
-}
+    header {
+      width: 100%;
+      height: 200px;
+      background-image: url("https://dogsonthego.net/wp-content/uploads/2014/11/dogs-on-the-go-contact-header.jpg");
+      }
 
-a, a:visited {
-    text-decoration: none;
-    color: #026b8b
-}
+    nav {
+      position: absolute;
+      margin: 20px;
+      font-size: 20px;
+      z-index: 1;
+      height: 50%;
+      flex: 1;
+      overflow-x: hidden;
+      margin-left: 3%;
+    }
+    button{
+      border-radius: 30%;
+      width: 200px;
+      height: 30px;
+    }
 
-a:hover {
-    text-decoration: underline;
-    color: #026b8b
-}
+    section {
+      width: 150px;
+      height: auto;
+      position: relative;
+      left: 200px;
+      top: 70px;
+      margin-left: 5%;
+      font-size: 20px;
+    }
 
-.container {
-    width: 1000px;
+    li:hover{
+      cursor: pointer;
+      font-weight: bold;
+    }
 
-}
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 10%;
+      position: absolute;
+      top: 30%;
+      left: 40%;
+    }
 
+    h1 {
+        font-size: 20px;
+      }
 
-li {
-    list-style-type: none;
-    font-size: 0.8rem;
-    margin-top: 3px;
-}
-
-
-
-aside {
-    width: 15%;
-    float: right;
-}
-
-main {
-    width: 75%;
-    float: left;
-}
-
-section {
-    float: left;
-    width: 300px;
-}
-
-img {
-    display: block;
-}
-
-input[type=button] {
-    display: block;
-    width: 150px;
-    height: 30px;
-    float: left;
-    margin-top: 20px;
-    border-radius: 100px;
-
-}
-
-#picture {
-    display: block;
-
-    min-width: 400px;
-    max-height: 400px;
-}
-
-.PicButton {
-    display: block;
-    float: left;
-    margin-right: 10px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0.2px solid grey;
-    font-weight: 500;
-    font-size: 0.75rem;
-    margin-top: 15px;
-    padding-top: 8px;
-    width: 150px;
-    height: 23px;
-    text-align: center;
-    background-color: #eeeeee;
-}
-
-.PicButton:hover {
-    background-color: #ebebeb;
-    text-decoration: none;
+    img {
+      width: 250px;
+      max-height: 300px;
+      margin: 0;
+    }
